@@ -96,3 +96,11 @@
 .upgrade button:hover {
   background-color: #535bf2;
 }
+
+.samosa:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.samosa:active {
+  transform: scale(0.95);
