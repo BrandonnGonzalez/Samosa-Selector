@@ -10,16 +10,19 @@ const App = () => {
   const buyDoubledStuffed = () => {
     if (count >= 10) {
       setCount(multiplier * 2);
+      setCount(count - 10);
     }
   }
   const buyPartyPack = () => {
     if (count >= 100) {
       setCount(multiplier * 5);
+      setCount(count - 100);
     }
   }
   const buyFullFeast = () => {
     if (count >= 1000) {
       setCount(multiplier * 10);
+      setCount(count - 1000);
     }
   }
 
